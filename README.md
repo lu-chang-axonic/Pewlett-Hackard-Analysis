@@ -23,8 +23,5 @@ The purpose of this project is to summarize the employee data in various ways to
 
 ## Summary
 
-* Using birthdays that fell between 1/1/1951 and 12/31/1955 to define people who are about to retire, there will be 90,398 roles that need to be filled as the "silver tsunami" begins to make an impact. 
-* Using birthdays that fell between 1/1/1965 and 12/31/1965 to define people who are eligible to mentor, there will be 1,549 people who can mentor the next generation of PH employees. I'd think that the criteria used is artificial and is not sufficient to answer the question "are there enough qualified, retirement-ready employees in the departments to mentor the next generation of PH empolyees". Because:
-    * We don't know the demand-- How many people need a mentor in the "next generation"?
-    * Why should only people in 1965 be qualified to be mentor?
-    * A mentor-mentee relationship doesn't need to be one to one.
+* Using birthdays that fell between 1/1/1951 and 12/31/1955 to define people who are about to retire, there will be 72,458 roles that need to be filled as the "silver tsunami" begins to make an impact. 
+* Using birthdays that fell between 1/1/1965 and 12/31/1965, there are 1,549 current employees people who are eligible to be mentored. This number is dwarfed by the number of 
