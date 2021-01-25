@@ -30,14 +30,14 @@ To help shed some more light on the situation, I've used two additional queries 
 
 ### Select retiring employees with a senior title
 Using the following query, I further screened the retiring employees by only including people with titles that indicate a senior level position:
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Senior%20Retiring%20Query.PNG)
 
 This resulted in a group of 54,447 retiring senior team members that can potentially be more qualified to serve as a mentor:
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Senior%20Retiring.PNG)
 
 ### Select mentorship eligible employees with a junior title
 Using the following query, I further screened the mentorship eligible employees by only including people with titles that indicate a junior level position:
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Junior%20Query.PNG)
 
 This resulted in a group of 734 junior team members that can potentially need more mentoring:
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Junior.PNG)
