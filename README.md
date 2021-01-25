@@ -11,14 +11,12 @@ The purpose of this project is to summarize the employee data in various ways to
 
 * 
 
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/District%20Summary%20Before.PNG)
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/District%20Summary%20After.PNG)
+
 
 ### Deliverable 2 The Employees Eligible for the Mentorship Program
 
 *
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20Before.PNG)
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
+
 
 
 ## Summary
@@ -28,16 +26,20 @@ The purpose of this project is to summarize the employee data in various ways to
 
 To help shed some more light on the situation, I've used two additional queries to further refine the analysis.
 
-### Select retiring employees with a senior title
+### Additional Query 1: Select retiring employees with a senior title
 Using the following query, I further screened the retiring employees by only including people with titles that indicate a senior level position:
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
+
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Senior%20Retiring%20Query.PNG)
 
 This resulted in a group of 54,447 retiring senior team members that can potentially be more qualified to serve as a mentor:
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
 
-### Select mentorship eligible employees with a junior title
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Senior%20Retiring.PNG)
+
+### Additional Query 2: Select mentorship eligible employees with a junior title
 Using the following query, I further screened the mentorship eligible employees by only including people with titles that indicate a junior level position:
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
+
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Junior%20Query.PNG)
 
 This resulted in a group of 734 junior team members that can potentially need more mentoring:
-![](https://github.com/lu-chang-axonic/School_District_Analysis/blob/main/images/THS%20After.PNG)
+
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Junior.PNG)
