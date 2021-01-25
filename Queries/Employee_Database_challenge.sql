@@ -89,5 +89,46 @@ WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (de.to_date='9999_01_01')
 ORDER BY e.emp_no;
 
+--Check Data
 Select *
+FROM mentorship_eligibility;
+
+--Additional Query 1 -- To screen out retiring employees with a senior position
+DROP TABLE senior_retiring;
+
+SELECT COUNT(emp_no),
+			title
+INTO senior_retiring
+FROM retirment_title
+WHERE (title='Senior Engineer')
+OR (title='Manager')
+OR (title='Technique Leader')
+OR (title='Senior Staff')
+GROUP BY title;
+
+Select *
+FROM senior_retiring;
+
+
+--Additional Query 2 -- To screen out mentorship eligible employees who are already in a senior position
+DROP TABLE junior_mentee;
+
+SELECT COUNT(emp_no),
+			title
+INTO junior_mentee
 FROM mentorship_eligibility
+WHERE (title='Assistant Engineer')
+OR (title='Engineer')
+OR (title='Staff')
+GROUP BY title;
+
+Assistant Engineer
+Engineer
+Senior Engineer
+Senior Staff
+Staff
+Technique Leader
+
+
+Select *
+FROM junior_mentee;
