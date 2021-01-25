@@ -26,7 +26,7 @@ The purpose of this project is to summarize the employee data in various ways to
 
 To help shed some more light on the situation, I've used two additional queries to further refine the analysis.
 
-### Select retiring employees with a senior title
+### Additional Query 1: Select retiring employees with a senior title
 Using the following query, I further screened the retiring employees by only including people with titles that indicate a senior level position:
 
 ![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Senior%20Retiring%20Query.PNG)
@@ -35,7 +35,7 @@ This resulted in a group of 54,447 retiring senior team members that can potenti
 
 ![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Senior%20Retiring.PNG)
 
-### Select mentorship eligible employees with a junior title
+### Additional Query 2: Select mentorship eligible employees with a junior title
 Using the following query, I further screened the mentorship eligible employees by only including people with titles that indicate a junior level position:
 
 ![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Junior%20Query.PNG)
