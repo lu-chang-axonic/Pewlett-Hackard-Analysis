@@ -14,6 +14,8 @@ CREATE TABLE titles (
 SELECT *
 FROM retirment_title;
 
+DROP TABLE retirment_title;
+
 -- Create a table
 SELECT e.emp_no,
 		e.first_name,
@@ -26,9 +28,12 @@ FROM employees as e
 INNER JOIN titles as t
 ON e.emp_no=t.emp_no
 WHERE (e.birth_date BETWEEN '1951-01-01' AND '1955-12-31')
+AND (t.to_date='9999-01-01')
 ORDER BY e.emp_no;
 
 -- Use Dictinct with Orderby to remove duplicate rows
+DROP TABLE unique_titles;
+
 SELECT DISTINCT ON (emp_no) first_name,
 last_name,
 title
@@ -37,6 +42,8 @@ FROM retirment_title
 ORDER BY emp_no, from_date DESC;
 
 -- Employees by recent job title who are about to retire
+DROP TABLE retiring_title;
+
 SELECT COUNT(first_name), title
 INTO retiring_title
 FROM unique_titles
