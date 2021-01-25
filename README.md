@@ -7,17 +7,19 @@ The purpose of this project is to summarize the employee data in various ways to
 
 ## Results
 
-### Deliverable 1: The Number of Retiring Employees by Title
+#### Deliverable 1: The Number of Retiring Employees by Title
 
-* 
+The table below shows the summary of employees who are retiring by title.
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Retiring.PNG)
+* The result shows that the majority of retiring staff are of senior titles.
+* Among all employees, most people have technical skills, reflected by the "Engineer" and "Technique Leader".
 
+#### Deliverable 2: The Employees Eligible for the Mentorship Program
 
-
-### Deliverable 2 The Employees Eligible for the Mentorship Program
-
-*
-
-
+The table below shows the summary of employees who are eligible for the mentorship program, based on their birthday.
+![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/mentee.PNG)
+* It appears that non-tehnical staff account for a bigger portion of this cohort, compared to the retiring cohort. 
+* About half of this group are already of senior titles, who may not need or want a mentor.
 
 ## Summary
 
@@ -26,7 +28,7 @@ The purpose of this project is to summarize the employee data in various ways to
 
 To help shed some more light on the situation, I've used two additional queries to further refine the analysis.
 
-### Additional Query 1: Select retiring employees with a senior title
+#### Additional Query 1: Select retiring employees with a senior title
 Using the following query, I further screened the retiring employees by only including people with titles that indicate a senior level position:
 
 ![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Senior%20Retiring%20Query.PNG)
@@ -35,7 +37,7 @@ This resulted in a group of 54,447 retiring senior team members that can potenti
 
 ![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Senior%20Retiring.PNG)
 
-### Additional Query 2: Select mentorship eligible employees with a junior title
+#### Additional Query 2: Select mentorship eligible employees with a junior title
 Using the following query, I further screened the mentorship eligible employees by only including people with titles that indicate a junior level position:
 
 ![](https://github.com/lu-chang-axonic/Pewlett-Hackard-Analysis/blob/main/Image/Junior%20Query.PNG)
